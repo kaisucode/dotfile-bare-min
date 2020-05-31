@@ -1,4 +1,6 @@
 
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
 alias vi="vim"
 alias l="clear"
 alias sl="ls"
