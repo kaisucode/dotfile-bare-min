@@ -6,3 +6,5 @@
 [credential]
 	helper = cache --timeout=300
 
+[core]
+	editor = vim
