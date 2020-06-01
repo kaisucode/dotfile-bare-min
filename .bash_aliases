@@ -1,6 +1,14 @@
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+# Usage:
+# wal-tile "~/Pictures/wallpaper.png"
+wal-tile() 
+{
+	wal -n -i "$@"
+	feh --bg-tile "$(< "${HOME}/.cache/wal/wal")"
+}
+
 alias vi="vim"
 alias l="clear"
 alias sl="ls"

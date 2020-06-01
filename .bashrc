@@ -10,6 +10,8 @@ fi
 
 # User specific aliases and functions
 
+(cat ~/.cache/wal/sequences &)
+
 LS_COLORS=$LS_COLORS:'di=0;94:fi=37' ; export LS_COLORS
 
 if [ -f ~/.bash_aliases ]; then

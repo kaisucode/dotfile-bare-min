@@ -1,3 +1,4 @@
 
 setxkbmap -option 'caps:swapescape'
+wal -R
 
