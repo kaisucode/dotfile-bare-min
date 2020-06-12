@@ -34,6 +34,6 @@ alias grao="git remote add origin"
 
 alias python=python3
 alias ve="virtualenv env"
-alias ave="source/bin/activate"
+alias ave="source env/bin/activate"
 alias dve="deactivate"
 
