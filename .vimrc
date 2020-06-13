@@ -13,7 +13,7 @@ hi Normal ctermfg=cyan guibg=NONE ctermbg=NONE
 hi LineNr ctermfg=141 ctermbg=NONE
 
 let mapleader = ','
-nmap <Leader><space> nohlsearch<cr>
+nmap <Leader><space> :nohlsearch<cr>
 
 nnoremap ' `
 vnoremap ' `
