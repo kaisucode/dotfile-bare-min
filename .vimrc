@@ -3,6 +3,8 @@ set linebreak
 set tabstop=2 softtabstop=0 noexpandtab shiftwidth=2
 set number
 set nocompatible
+set ignorecase
+set smartcase
 syntax on
 
 colorscheme evening
