@@ -3,6 +3,8 @@ set linebreak
 set tabstop=2 softtabstop=0 noexpandtab shiftwidth=2
 set number
 set nocompatible
+set ignorecase
+set smartcase
 syntax on
 
 colorscheme evening
@@ -11,7 +13,7 @@ hi Normal ctermfg=cyan guibg=NONE ctermbg=NONE
 hi LineNr ctermfg=141 ctermbg=NONE
 
 let mapleader = ','
-nmap <Leader><space> nohlsearch<cr>
+nmap <Leader><space> :nohlsearch<cr>
 
 nnoremap ' `
 vnoremap ' `
